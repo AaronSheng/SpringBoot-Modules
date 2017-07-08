@@ -1,0 +1,103 @@
+2017-07-08 14:18:14 INFO  StartupInfoLogger 48 logStarting - Starting Application on ubuntu with PID 12222 (/home/aaron/workspace/my/SpringBoot-Modules/web/target/classes started by aaron in /home/aaron/workspace/my/SpringBoot-Modules)
+2017-07-08 14:18:14 INFO  SpringApplication 665 logStartupProfileInfo - The following profiles are active: rds,redis
+2017-07-08 14:18:14 INFO  AbstractApplicationContext 582 prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@18d87d80: startup date [Sat Jul 08 14:18:14 CST 2017]; root of context hierarchy
+2017-07-08 14:18:14 INFO  Version 30 <clinit> - HV000001: Hibernate Validator 5.2.4.Final
+2017-07-08 14:18:18 INFO  RepositoryConfigurationDelegate 170 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-07-08 14:18:19 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker 325 postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$79b73a5c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-08 14:18:19 INFO  TomcatEmbeddedServletContainer 87 initialize - Tomcat initialized with port(s): 8080 (http)
+2017-07-08 14:18:19 INFO  DirectJDKLog 179 log - Starting service Tomcat
+2017-07-08 14:18:19 INFO  DirectJDKLog 179 log - Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-07-08 14:18:20 INFO  DirectJDKLog 179 log - Initializing Spring embedded WebApplicationContext
+2017-07-08 14:18:20 INFO  EmbeddedWebApplicationContext 276 prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 5774 ms
+2017-07-08 14:18:20 INFO  ServletRegistrationBean 190 onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+2017-07-08 14:18:20 INFO  AbstractFilterRegistrationBean 258 configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-07-08 14:18:20 INFO  AbstractFilterRegistrationBean 258 configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-07-08 14:18:20 INFO  AbstractFilterRegistrationBean 258 configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-07-08 14:18:20 INFO  AbstractFilterRegistrationBean 258 configure - Mapping filter: 'requestContextFilter' to: [/*]
+2017-07-08 14:18:21 INFO  DruidDataSource 669 init - {dataSource-1} inited
+2017-07-08 14:18:21 INFO  LocalContainerEntityManagerFactoryBean 349 createNativeEntityManagerFactory - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-07-08 14:18:21 INFO  LogHelper 46 logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-07-08 14:18:22 INFO  Version 54 logVersion - HHH000412: Hibernate Core {4.3.6.Final}
+2017-07-08 14:18:22 INFO  Environment 239 <clinit> - HHH000206: hibernate.properties not found
+2017-07-08 14:18:22 INFO  Environment 346 buildBytecodeProvider - HHH000021: Bytecode provider name : javassist
+2017-07-08 14:18:22 INFO  JavaReflectionManager 66 <clinit> - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-07-08 14:18:22 INFO  Dialect 145 <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-07-08 14:18:22 INFO  ASTQueryTranslatorFactory 47 <init> - HHH000397: Using ASTQueryTranslatorFactory
+2017-07-08 14:18:23 INFO  AbstractEntityManagerFactoryBean 382 buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-07-08 14:18:23 INFO  Dialect 145 <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-07-08 14:18:23 INFO  TransactionFactoryInitiator 62 initiateService - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-07-08 14:18:23 INFO  ASTQueryTranslatorFactory 47 <init> - HHH000397: Using ASTQueryTranslatorFactory
+2017-07-08 14:18:23 INFO  CglibAopProxy 265 doValidateClass - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-08 14:18:23 INFO  CglibAopProxy 265 doValidateClass - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-08 14:18:23 INFO  CglibAopProxy 265 doValidateClass - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-08 14:18:23 INFO  CglibAopProxy 265 doValidateClass - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-08 14:18:23 INFO  CglibAopProxy 265 doValidateClass - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-08 14:18:23 INFO  CglibAopProxy 265 doValidateClass - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-08 14:18:23 INFO  CglibAopProxy 265 doValidateClass - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-08 14:18:23 INFO  HibernateTransactionManager 360 afterPropertiesSet - Using DataSource [{
+	CreateTime:"2017-07-08 14:18:20",
+	ActiveCount:0,
+	PoolingCount:5,
+	CreateCount:5,
+	DestroyCount:0,
+	CloseCount:3,
+	ConnectCount:3,
+	Connections:[
+		{ID:1349536242, ConnectTime:"2017-07-08 14:18:21", UseCount:0, LastActiveTime:"2017-07-08 14:18:21"},
+		{ID:1318348444, ConnectTime:"2017-07-08 14:18:21", UseCount:0, LastActiveTime:"2017-07-08 14:18:21"},
+		{ID:1102782217, ConnectTime:"2017-07-08 14:18:21", UseCount:0, LastActiveTime:"2017-07-08 14:18:21"},
+		{ID:882838692, ConnectTime:"2017-07-08 14:18:21", UseCount:0, LastActiveTime:"2017-07-08 14:18:21"},
+		{ID:1727196188, ConnectTime:"2017-07-08 14:18:21", UseCount:3, LastActiveTime:"2017-07-08 14:18:23"}
+	]
+}
+
+[
+	{
+	ID:1349536242, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:1318348444, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:1102782217, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:882838692, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:1727196188, 
+	poolStatements:[
+		]
+	}
+]] of Hibernate SessionFactory for HibernateTransactionManager
+2017-07-08 14:18:24 INFO  RequestMappingHandlerAdapter 534 initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@18d87d80: startup date [Sat Jul 08 14:18:14 CST 2017]; root of context hierarchy
+2017-07-08 14:18:24 INFO  AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/user/getName],methods=[GET]}" onto public com.alibaba.fastjson.JSONObject com.aaron.web.UserController.getName(long)
+2017-07-08 14:18:24 INFO  AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/user/setName],methods=[GET]}" onto public com.alibaba.fastjson.JSONObject com.aaron.web.UserController.setName(long,java.lang.String)
+2017-07-08 14:18:24 INFO  AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-08 14:18:24 INFO  AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-08 14:18:24 INFO  AbstractUrlHandlerMapping 354 registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-08 14:18:24 INFO  AbstractUrlHandlerMapping 354 registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-08 14:18:24 INFO  AbstractUrlHandlerMapping 354 registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-08 14:18:25 INFO  MBeanExporter 431 afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+2017-07-08 14:18:25 INFO  MBeanExporter 916 autodetect - Bean with name 'serverDataSource' has been autodetected for JMX exposure
+2017-07-08 14:18:25 INFO  MBeanExporter 671 registerBeanInstance - Located MBean 'serverDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=serverDataSource,type=DruidDataSource]
+2017-07-08 14:18:25 INFO  DirectJDKLog 179 log - Initializing ProtocolHandler ["http-nio-8080"]
+2017-07-08 14:18:25 INFO  DirectJDKLog 179 log - Starting ProtocolHandler [http-nio-8080]
+2017-07-08 14:18:25 INFO  DirectJDKLog 179 log - Using a shared selector for servlet write/read
+2017-07-08 14:18:25 INFO  TomcatEmbeddedServletContainer 185 start - Tomcat started on port(s): 8080 (http)
+2017-07-08 14:18:25 INFO  StartupInfoLogger 57 logStarted - Started Application in 12.997 seconds (JVM running for 14.591)
+2017-07-08 14:18:28 INFO  AbstractApplicationContext 987 doClose - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@18d87d80: startup date [Sat Jul 08 14:18:14 CST 2017]; root of context hierarchy
+2017-07-08 14:18:28 INFO  MBeanExporter 449 destroy - Unregistering JMX-exposed beans on shutdown
+2017-07-08 14:18:28 INFO  MBeanRegistrationSupport 241 unregisterBeans - Unregistering JMX-exposed beans
+2017-07-08 14:18:29 INFO  AbstractEntityManagerFactoryBean 551 destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-07-08 14:18:29 INFO  DruidDataSource 1385 close - {dataSource-1} closed
