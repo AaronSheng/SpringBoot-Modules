@@ -19,6 +19,11 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    @RequestMapping(value = "/login", method = RequestMethod.POST)
+    public String login() {
+        return "login";
+    }
+
     @RequestMapping(value = "/name", method = RequestMethod.GET)
     public JSONObject getName(@RequestParam("id")long id) {
         try {

@@ -18,10 +18,10 @@ import javax.transaction.TransactionManager;
 import java.util.Properties;
 
 /**
- * Created by aaron on 7/11/17.
+ * Created by com.aaron on 7/11/17.
  */
 @Configuration
-@MapperScan(basePackages = "com.aaron.dao", sqlSessionFactoryRef = "mybatisSesstionFactory")
+@MapperScan(basePackages = "com.com.aaron.dao", sqlSessionFactoryRef = "mybatisSesstionFactory")
 public class MyBatisConfiguration {
     @Value("${spring.datasource.serverurl}")
     private String serverurl;

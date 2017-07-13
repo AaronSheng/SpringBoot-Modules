@@ -3,7 +3,7 @@ package com.aaron.util;
 import com.alibaba.fastjson.JSONObject;
 
 /**
- * Created by aaron on 7/8/17.
+ * Created by com.aaron on 7/8/17.
  */
 public class PackageUtils {
     private static final String CODE = "code";
