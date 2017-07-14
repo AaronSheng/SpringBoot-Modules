@@ -14,6 +14,6 @@ import java.io.IOException;
 public class AuthFailHandler implements AuthenticationFailureHandler {
     @Override
     public void onAuthenticationFailure(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, AuthenticationException e) throws IOException, ServletException {
-        httpServletResponse.sendRedirect("/web/fail.html");
+        httpServletResponse.sendRedirect("fail.html");
     }
 }
