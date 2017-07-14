@@ -14,7 +14,7 @@ import javax.sql.DataSource;
 import java.util.Properties;
 
 @Configuration
-public class RdsConfiguration {
+public class MySQLConfiguration {
     @Value("${spring.datasource.serverurl}")
     private String serverurl;
     @Value("${spring.datasource.username}")
