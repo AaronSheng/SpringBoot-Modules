@@ -14,14 +14,13 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.transaction.PlatformTransactionManager;
 
 import javax.sql.DataSource;
-import javax.transaction.TransactionManager;
 import java.util.Properties;
 
 /**
  * Created by com.aaron on 7/11/17.
  */
 @Configuration
-@MapperScan(basePackages = "com.com.aaron.dao", sqlSessionFactoryRef = "mybatisSesstionFactory")
+@MapperScan(basePackages = "com.aaron.dao", sqlSessionFactoryRef = "mybatisSesstionFactory")
 public class MyBatisConfiguration {
     @Value("${spring.datasource.serverurl}")
     private String serverurl;
@@ -55,21 +54,6 @@ public class MyBatisConfiguration {
     private String validationQuery;
     @Value("${spring.datasource.filters}")
     private String filters;
-
-    @Value("${spring.hibernate.dialect}")
-    private String dialect;
-    @Value("${spring.hibernate.show_sql}")
-    private String showSql;
-    @Value("${spring.hibernate.autoReconnect}")
-    private String autoReconnect;
-    @Value("${spring.hibernate.transaction.auto_close_session}")
-    private String transactionAutoClostSession;
-    @Value("${spring.hibernate.connection.autocommit}")
-    private String connectionAutoCommit;
-    @Value("${spring.statement_cache.size}")
-    private String statementCacheSize;
-    @Value("${spring.hibernate.packagesToScan}")
-    private String packagesToScan;
 
     @Bean
     @Qualifier(value = "mybatisDataSource")

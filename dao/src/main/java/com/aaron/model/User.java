@@ -1,21 +1,12 @@
-package com.aaron.domain;
+package com.aaron.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
 import java.io.Serializable;
 
 /**
  * Created by Aaron Sheng on 9/16/16.
  */
-@Entity
-@Table(name="user")
 public class User implements Serializable {
-    @Id
-    @Column(name="id")
     private Long id;
-    @Column(name="name")
     private String name;
 
     public Long getId() {

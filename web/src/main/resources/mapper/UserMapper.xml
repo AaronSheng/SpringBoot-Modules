@@ -1,0 +1,12 @@
+<mapper namespace="com.aaron.dao.UserMapper">
+    <select id="get" resultType="com.aaron.model.User">
+        select * from user where id = #{id}
+    </select>
+
+    <update id="update" parameterType="com.aaron.model.User">
+        update user
+            set name = #{name}
+        where id = #{id}
+    </update>
+
+</mapper>

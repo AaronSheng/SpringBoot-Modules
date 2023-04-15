@@ -1,10 +1,12 @@
 .idea/
+.idea/*
 build/
 target/
 out/
 release/
 reports/
 *.iml
+*/**/*.iml
 .DS_Store
 *.log
 gradle/

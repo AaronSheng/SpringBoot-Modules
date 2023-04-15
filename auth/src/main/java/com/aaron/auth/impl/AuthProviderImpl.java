@@ -10,7 +10,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
  * Created by com.aaron on 7/13/17.
  */
 public class AuthProviderImpl extends AbstractUserDetailsAuthenticationProvider {
-    private UserDetailsService userDetailsService = new UserDetailServiceImpl();
+    private final UserDetailsService userDetailsService = new UserDetailServiceImpl();
 
     @Override
     protected void additionalAuthenticationChecks(UserDetails userDetails, UsernamePasswordAuthenticationToken usernamePasswordAuthenticationToken) throws AuthenticationException {
