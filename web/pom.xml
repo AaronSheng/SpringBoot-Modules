@@ -41,6 +41,11 @@
 
         <dependency>
             <groupId>SpringBoot-Modules</groupId>
+            <artifactId>api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>SpringBoot-Modules</groupId>
             <artifactId>service</artifactId>
         </dependency>
 

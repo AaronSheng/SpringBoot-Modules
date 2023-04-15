@@ -17,24 +17,19 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private UserMapper userMapper;
 
-    public JSONObject getName(Long id) {
+    public String getName(Long id) {
         User user =  userMapper.get(id);
         if (user == null) {
-            return PackageUtils.fail();
+            return null;
         }
-
-        JSONObject content = new JSONObject();
-        content.put("name", user.getName());
-        return PackageUtils.success(content);
+        return user.getName();
     }
 
-    public JSONObject setName(Long id, String name) {
+    public void setName(Long id, String name) {
         User user = userMapper.get(id);
         if (user != null) {
             user.setName(name);
             userMapper.update(user);
         }
-
-        return PackageUtils.success();
     }
 }

@@ -6,7 +6,7 @@ import com.alibaba.fastjson.JSONObject;
  * Created by Aaron Sheng on 10/6/16.
  */
 public interface UserService {
-    JSONObject getName(Long id);
+    String getName(Long id);
 
-    JSONObject setName(Long id, String name);
+    void setName(Long id, String name);
 }
