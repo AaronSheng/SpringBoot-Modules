@@ -19,7 +19,7 @@
 
         <dependency>
             <groupId>SpringBoot-Modules</groupId>
-            <artifactId>util</artifactId>
+            <artifactId>common</artifactId>
         </dependency>
     </dependencies>
 
